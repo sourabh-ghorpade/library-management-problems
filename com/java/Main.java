@@ -103,11 +103,6 @@ public class Main {
                 case "2":
                     library.displayBooks();
                     break;
-                case "3":
-                    System.out.print("Enter the title of the book you want to borrow: ");
-                    title = scanner.nextLine();
-                    library.borrowBook(title);
-                    break;
                 case "4":
                     System.out.print("Enter the title of the book you want to return: ");
                     title = scanner.nextLine();
